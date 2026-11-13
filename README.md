@@ -20,7 +20,7 @@ Large binary artifacts are **not** stored in the Git history (GitHub limits file
 
 | Artifact | Where | License |
 |---|---|---|
-| 640 × 640 native-resolution tiles (B04, B05, B11), degraded variants at three severities, YOLO label files | Archive record — see `data/README.md` | See *Data provenance* |
+| 640 × 640 native-resolution tiles (B04, B05, B11), degraded variants at three severities, YOLO label files | Archive record — see `data/README.md` | Imagery: Copernicus licence; labels: MIT (S2-SHIPS) |
 | Nine trained YOLOv9 detectors (m / c / e × three seeds) | Archive record — see `data/README.md` | AGPL-3.0 |
 
 ## Reproducing the analysis
@@ -39,7 +39,7 @@ The statistical tables of Chapter 4 are regenerated from `results/primary_table.
 ## Data provenance and attribution
 
 * **Sentinel-2 imagery.** All image tiles are derived from Copernicus Sentinel-2 Level-2A products. They are redistributed under the [Copernicus Sentinel data licence](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice), which permits reproduction, distribution and adaptation with attribution. Required notice: **"Contains modified Copernicus Sentinel data [acquisition year]"**.
-* **Vessel annotations.** The vessel annotations originate from the S2-SHIPS dataset (Ciocarlan & Stoian, 2021, *Remote Sensing* 13(21), 4255, https://doi.org/10.3390/rs13214255), obtained from its authors. S2-SHIPS is distributed on request and carries no public license; the annotation-derived files in this repository are published with the written permission of the S2-SHIPS authors (see `docs/PERMISSIONS.md`). Users of those files must cite Ciocarlan & Stoian (2021) in addition to this repository.
+* **Vessel annotations.** The vessel annotations originate from the S2-SHIPS dataset (Ciocarlan & Stoian, 2021, *Remote Sensing* 13(21), 4255, https://doi.org/10.3390/rs13214255), distributed under the MIT License (see `docs/PERMISSIONS.md` and `LICENSES/S2-SHIPS-MIT.txt`). Users of annotation-derived files must retain that licence notice and cite Ciocarlan & Stoian (2021).
 * **Detectors.** The YOLOv9 models were trained and evaluated with the Ultralytics implementation (AGPL-3.0) of YOLOv9 (Wang, Yeh & Liao, 2024). Weights are released under AGPL-3.0 accordingly.
 * **Denoisers.** BM3D, DnCNN, Restormer, Noise2Void and Blind2Unblind were run from their published implementations under their own licenses; none is vendored here. Note that the Restormer code and pretrained weights are released by their authors for academic, non-commercial use only; any fine-tuned Restormer weights are therefore **not** published in this repository.
 

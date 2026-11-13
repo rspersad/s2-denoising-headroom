@@ -1,15 +1,11 @@
-# Permissions
+# Third-party data: licences and provenance
 
 ## S2-SHIPS annotations (Ciocarlan & Stoian, 2021)
 
-S2-SHIPS is distributed by its authors on request and carries no public license. Files in this repository that derive from its annotations (YOLO label files, the vessel-level ground truth used for scoring, and any image crops whose extent was defined by S2-SHIPS) are published only under written permission from the dataset authors.
+The vessel annotations from which the label files in this release derive are from S2-SHIPS, distributed under the **MIT License** (EOTDL catalogue entry https://www.eotdl.com/datasets/S2-SHIPS, author Alina Ciocarlan; source repository https://github.com/alina2204/contrastive_SSL_ship_detection, MIT). The licence text is kept in `LICENSES/S2-SHIPS-MIT.txt` and must accompany any redistribution of the annotation-derived files (`labels_yolo.tar.zst` in the Zenodo record, and the vessel-level ground truth in `results/vessel/`).
 
-Status: **[pending / granted on YYYY-MM-DD — attach the permission email as docs/permissions/s2ships_permission.pdf with personal contact details redacted]**
-
-Terms granted: **[quote the scope exactly: e.g., "redistribution of derived bounding-box labels for the 4 held-out scenes under CC BY 4.0 with citation of the 2021 article"]**
-
-Until permission is on file, the annotation-derived files are withheld from the public archive, and `tools/rebuild_labels.py` reconstructs them from a user's own copy of S2-SHIPS obtained from the authors.
+Users of those files must cite: Ciocarlan, A., & Stoian, A. (2021). Ship Detection in Sentinel 2 Multi-Spectral Images with Self-Supervised Learning. *Remote Sensing, 13*(21), 4255. https://doi.org/10.3390/rs13214255
 
 ## Sentinel-2 imagery
 
-No permission required. Redistributed under the Copernicus Sentinel data legal notice with the attribution in NOTICE.md.
+Redistributed under the Copernicus Sentinel data legal notice with the attribution in `NOTICE.md`: *Contains modified Copernicus Sentinel data [acquisition year]*.
