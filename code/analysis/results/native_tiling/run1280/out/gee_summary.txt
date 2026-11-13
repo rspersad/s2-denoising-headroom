@@ -1,0 +1,25 @@
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                    detected   No. Observations:                 3438
+Model:                                 GEE   No. clusters:                        4
+Method:                        Generalized   Min. cluster size:                 513
+                      Estimating Equations   Max. cluster size:                1305
+Family:                           Binomial   Mean cluster size:               859.5
+Dependence structure:         Exchangeable   Num. iterations:                     9
+Date:                     Sun, 01 Nov 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         23:36:22
+=============================================================================================================
+                                                coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------
+Intercept                                   3.22e+73        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B05]          -3.204e+73        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B11]          -2.897e+73        nan        nan        nan         nan         nan
+C(severity)[T.nominal]                    -1.039e+72        nan        nan        nan         nan         nan
+C(severity)[T.severe]                       1.32e+71        nan        nan        nan         nan         nan
+log_area                                    1.44e+73        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B05]:log_area -1.453e+73        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B11]:log_area -1.593e+73        nan        nan        nan         nan         nan
+==============================================================================
+Skew:                         -0.0145   Kurtosis:                      -0.1445
+Centered skew:                -0.0879   Centered kurtosis:             -0.2277
+==============================================================================

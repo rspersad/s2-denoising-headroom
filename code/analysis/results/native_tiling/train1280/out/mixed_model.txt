@@ -1,0 +1,86 @@
+Rows: 3438  vessels: 382  scenes: 4 
+
+=== Likelihood-ratio test: does the band effect depend on vessel size? ===
+Data: L
+Models:
+m0: detected ~ band + log_area_c + severity + (1 | scene) + (1 | vessel_id)
+m1: detected ~ band * log_area_c + severity + (1 | scene) + (1 | vessel_id)
+   npar    AIC    BIC  logLik -2*log(L) Chisq Df Pr(>Chisq)    
+m0    8 1621.7 1670.9 -802.86    1605.7                        
+m1   10 1480.5 1542.0 -730.26    1460.5 145.2  2  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+=== m1: band * log_area (centred) + severity, random intercepts scene and vessel ===
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: detected ~ band * log_area_c + severity + (1 | scene) + (1 |  
+    vessel_id)
+   Data: L
+Control: ctrl
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1480.5    1542.0    -730.3    1460.5      3428 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-14.5776  -0.0158  -0.0041  -0.0007  13.1930 
+
+Random effects:
+ Groups    Name        Variance  Std.Dev. 
+ vessel_id (Intercept) 1.131e+02 1.064e+01
+ scene     (Intercept) 1.204e-16 1.097e-08
+Number of obs: 3438, groups:  vessel_id, 382; scene, 4
+
+Fixed effects:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         -8.1714     0.9709  -8.416   <2e-16 ***
+bandB05             -3.1425     0.3016 -10.420   <2e-16 ***
+bandB11             -3.2595     0.3155 -10.330   <2e-16 ***
+log_area_c           0.3421     0.6263   0.546    0.585    
+severitynominal      0.0903     0.2178   0.415    0.678    
+severitysevere      -0.1138     0.2173  -0.523    0.601    
+bandB05:log_area_c   1.4996     0.1816   8.256   <2e-16 ***
+bandB11:log_area_c   1.8747     0.1925   9.737   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) bndB05 bndB11 lg_r_c svrtyn svrtys bB05:_
+bandB05     -0.130                                          
+bandB11     -0.128  0.633                                   
+log_area_c  -0.378  0.066  0.067                            
+severtynmnl -0.111 -0.012 -0.011 -0.001                     
+severitysvr -0.114  0.014  0.014  0.001  0.499              
+bndB05:lg__  0.071 -0.627 -0.423 -0.129  0.009 -0.011       
+bndB11:lg__  0.070 -0.420 -0.643 -0.131  0.011 -0.014  0.615
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+=== Odds ratios with Wald 95% intervals (m1) ===
+                      OR    lo    hi
+(Intercept)        0.000 0.000 0.002
+bandB05            0.043 0.024 0.078
+bandB11            0.038 0.021 0.071
+log_area_c         1.408 0.412 4.805
+severitynominal    1.095 0.714 1.677
+severitysevere     0.892 0.583 1.366
+bandB05:log_area_c 4.480 3.138 6.395
+bandB11:log_area_c 6.519 4.470 9.507
+
+=== Odds ratios with Wald 95% intervals (m0, no interaction) ===
+                   OR    lo    hi
+(Intercept)     0.000 0.000 0.002
+bandB05         0.138 0.092 0.207
+bandB11         0.165 0.111 0.247
+log_area_c      2.365 0.795 7.033
+severitynominal 1.080 0.735 1.587
+severitysevere  0.907 0.617 1.335
+
+=== Predicted detection probability by band at the tercile midpoints (m1, severity = reference, random effects at 0) ===
+     area p.B04 p.B05 p.B11
+1   9.000     0     0     0
+4  24.100     0     0     0
+7 173.729     0     0     0

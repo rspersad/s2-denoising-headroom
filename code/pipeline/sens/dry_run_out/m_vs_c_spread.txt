@@ -1,0 +1,3 @@
+m_to_c_diff=0.010000
+m_sd=0.002800
+verdict=OUTSIDE one m SD -> c outperformed m

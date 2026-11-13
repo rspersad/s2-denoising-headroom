@@ -1,0 +1,37 @@
+Rows: 3438  vessels: 382 
+
+=== Cluster-robust Wald test (by vessel) of the band x log_area interaction ===
+           W           df            p 
+2.539378e+01 2.000000e+00 3.060633e-06 
+
+=== m1 odds ratios, cluster-robust 95% intervals ===
+                      OR    lo    hi     p
+(Intercept)        0.496 0.328 0.751 0.001
+bandB05            0.579 0.483 0.694 0.000
+bandB11            0.532 0.423 0.669 0.000
+log_area_c         1.422 1.128 1.792 0.003
+severitynominal    1.031 0.991 1.074 0.134
+severitysevere     0.944 0.885 1.008 0.084
+scenepanama        0.239 0.099 0.582 0.002
+scenerome          2.458 1.383 4.367 0.002
+scenerotterdam1    1.433 0.727 2.825 0.299
+bandB05:log_area_c 1.336 1.161 1.537 0.000
+bandB11:log_area_c 1.568 1.308 1.879 0.000
+
+=== m0 (no interaction) odds ratios, cluster-robust 95% intervals ===
+                   OR    lo    hi     p
+(Intercept)     0.491 0.320 0.754 0.001
+bandB05         0.602 0.498 0.727 0.000
+bandB11         0.586 0.465 0.738 0.000
+log_area_c      1.788 1.429 2.235 0.000
+severitynominal 1.031 0.991 1.073 0.134
+severitysevere  0.945 0.886 1.008 0.084
+scenepanama     0.235 0.097 0.570 0.001
+scenerome       2.391 1.368 4.179 0.002
+scenerotterdam1 1.418 0.724 2.778 0.308
+
+=== Predicted detection probability by band at tercile midpoints (m1, nominal severity, averaged over scenes) ===
+     area p.B04 p.B05 p.B11
+1   9.000 0.261 0.126 0.097
+4  24.100 0.326 0.207 0.185
+7 173.729 0.470 0.448 0.483

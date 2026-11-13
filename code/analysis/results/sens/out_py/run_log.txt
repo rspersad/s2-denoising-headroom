@@ -1,0 +1,175 @@
+Rows: 5940
+Rows per variant x seed:
+ seed       0    1    2
+variant               
+m        660  660  660
+c        660  660  660
+e        660  660  660
+Methods: blind2unblind, bm3d, clean, dncnn, noise2void, none, restormer
+
+==================== Variant m (seed 0) ====================
+
+Pooled paired deltas vs baseline (mAP50), resolution = 0.005:
+        method  n_blocks  mean_delta  median_delta  bca_lo  bca_hi  wilcoxon_p   p_bh  beats_resolution  bca90_lo  bca90_hi  tost_p  tost_equivalent
+         bm3d       108      0.0013       -0.0005 -0.0019  0.0054      0.5148 0.6435             False   -0.0014    0.0047  0.0232             True
+    restormer       108      0.0004       -0.0001 -0.0022  0.0036      0.6701 0.6701             False   -0.0018    0.0031  0.0011             True
+        dncnn       108     -0.0089       -0.0028 -0.0140 -0.0042      0.0032 0.0053             False   -0.0131   -0.0049  0.9332            False
+blind2unblind       108     -0.0180       -0.0126 -0.0233 -0.0135      0.0000 0.0000             False   -0.0224   -0.0142  1.0000            False
+   noise2void       108     -0.0236       -0.0092 -0.0334 -0.0168      0.0000 0.0000             False   -0.0318   -0.0178  1.0000            False
+
+Friedman: chi2 = 74.772, df = 5, p = 1.038e-14 (n blocks = 108)
+Mean ranks (1 = best):
+ method
+none             2.750
+restormer        2.954
+bm3d             3.046
+dncnn            3.630
+blind2unblind    4.194
+noise2void       4.426
+Nemenyi post hoc p-values:
+                blind2unblind    bm3d   dncnn  noise2void    none  restormer
+blind2unblind            NaN  0.0001  0.2290      0.9443  0.0000     0.0000
+bm3d                  0.0001     NaN  0.1975      0.0000  0.8541     0.9992
+dncnn                 0.2290  0.1975     NaN      0.0218  0.0073     0.0845
+noise2void            0.9443  0.0000  0.0218         NaN  0.0000     0.0000
+none                  0.0000  0.8541  0.0073      0.0000     NaN     0.9676
+restormer             0.0000  0.9992  0.0845      0.0000  0.9676        NaN
+
+Recoverable headroom per condition (mAP50):
+ band severity  n_blocks  D_clean  D_degraded  headroom  headroom_sd
+ B04 moderate        12   0.2503      0.2459    0.0044       0.0106
+ B04  nominal        12   0.2503      0.2470    0.0033       0.0074
+ B04   severe        12   0.2503      0.2393    0.0110       0.0191
+ B05 moderate        12   0.2193      0.2148    0.0044       0.0155
+ B05  nominal        12   0.2193      0.2145    0.0048       0.0071
+ B05   severe        12   0.2193      0.1961    0.0231       0.0416
+ B11 moderate        12   0.1883      0.1848    0.0034       0.0052
+ B11  nominal        12   0.1883      0.1845    0.0038       0.0049
+ B11   severe        12   0.1883      0.1879    0.0003       0.0129
+
+B05 severe cell:
+ band severity        method  n_blocks  mean_delta  median_delta  bca_lo  bca_hi  wilcoxon_p   p_bh  beats_resolution  headroom  delta_over_headroom
+ B05   severe          bm3d        12      0.0085        0.0023 -0.0080  0.0320      0.6661 0.8102             False    0.0231               0.3686
+ B05   severe     restormer        12      0.0059        0.0012 -0.0067  0.0213      0.6377 0.8102             False    0.0231               0.2538
+ B05   severe         dncnn        12     -0.0001       -0.0017 -0.0053  0.0111      0.2896 0.5430             False    0.0231              -0.0048
+ B05   severe    noise2void        12     -0.0022       -0.0013 -0.0097  0.0052      0.6101 0.8075             False    0.0231              -0.0946
+ B05   severe blind2unblind        12     -0.0167       -0.0153 -0.0239 -0.0107      0.0033 0.0184             False    0.0231              -0.7221
+
+==================== Variant c (seed 0) ====================
+
+Pooled paired deltas vs baseline (mAP50), resolution = 0.005:
+        method  n_blocks  mean_delta  median_delta  bca_lo  bca_hi  wilcoxon_p   p_bh  beats_resolution  bca90_lo  bca90_hi  tost_p  tost_equivalent
+    restormer       108     -0.0007       -0.0005 -0.0025  0.0009      0.5919 0.5919             False   -0.0022    0.0007  0.0000             True
+         bm3d       108     -0.0015       -0.0015 -0.0036  0.0007      0.0113 0.0189             False   -0.0033    0.0004  0.0010             True
+        dncnn       108     -0.0099        0.0006 -0.0157 -0.0052      0.2705 0.3381             False   -0.0147   -0.0059  0.9640            False
+blind2unblind       108     -0.0164       -0.0055 -0.0243 -0.0105      0.0001 0.0001             False   -0.0230   -0.0114  0.9992            False
+   noise2void       108     -0.0192       -0.0058 -0.0293 -0.0123      0.0001 0.0001             False   -0.0276   -0.0133  0.9994            False
+
+Friedman: chi2 = 33.428, df = 5, p = 3.094e-06 (n blocks = 108)
+Mean ranks (1 = best):
+ method
+none             3.097
+restormer        3.106
+dncnn            3.194
+bm3d             3.509
+blind2unblind    3.852
+noise2void       4.241
+Nemenyi post hoc p-values:
+                blind2unblind    bm3d   dncnn  noise2void    none  restormer
+blind2unblind            NaN  0.7594  0.1016      0.6464  0.0359     0.0400
+bm3d                  0.7594     NaN  0.8189      0.0468  0.5862     0.6105
+dncnn                 0.1016  0.8189     NaN      0.0006  0.9990     0.9994
+noise2void            0.6464  0.0468  0.0006         NaN  0.0001     0.0001
+none                  0.0359  0.5862  0.9990      0.0001     NaN     1.0000
+restormer             0.0400  0.6105  0.9994      0.0001  1.0000        NaN
+
+Recoverable headroom per condition (mAP50):
+ band severity  n_blocks  D_clean  D_degraded  headroom  headroom_sd
+ B04 moderate        12   0.2132      0.2208   -0.0076       0.0125
+ B04  nominal        12   0.2132      0.2166   -0.0034       0.0054
+ B04   severe        12   0.2132      0.2175   -0.0043       0.0187
+ B05 moderate        12   0.1811      0.1799    0.0012       0.0154
+ B05  nominal        12   0.1811      0.1815   -0.0004       0.0049
+ B05   severe        12   0.1811      0.1639    0.0172       0.0307
+ B11 moderate        12   0.1629      0.1644   -0.0016       0.0084
+ B11  nominal        12   0.1629      0.1631   -0.0003       0.0049
+ B11   severe        12   0.1629      0.1634   -0.0005       0.0090
+
+B05 severe cell:
+ band severity        method  n_blocks  mean_delta  median_delta  bca_lo  bca_hi  wilcoxon_p   p_bh  beats_resolution  headroom  delta_over_headroom
+ B05   severe          bm3d        12      0.0108        0.0086  0.0030  0.0225      0.0653 0.1835              True    0.0172               0.6261
+ B05   severe    noise2void        12      0.0088        0.0042  0.0044  0.0150      0.0054 0.0602              True    0.0172               0.5120
+ B05   severe     restormer        12      0.0054        0.0031  0.0007  0.0115      0.0917 0.2063              True    0.0172               0.3121
+ B05   severe         dncnn        12     -0.0023       -0.0011 -0.0077  0.0014      0.4561 0.6621             False    0.0172              -0.1336
+ B05   severe blind2unblind        12     -0.0123        0.0021 -0.0369  0.0020      1.0000 1.0000             False    0.0172              -0.7164
+
+==================== Variant e (seed 0) ====================
+
+Pooled paired deltas vs baseline (mAP50), resolution = 0.005:
+        method  n_blocks  mean_delta  median_delta  bca_lo  bca_hi  wilcoxon_p   p_bh  beats_resolution  bca90_lo  bca90_hi  tost_p  tost_equivalent
+    restormer       108      0.0017        0.0009  0.0001  0.0033      0.0023 0.0029             False    0.0004    0.0030  0.0000             True
+         bm3d       108      0.0014        0.0012 -0.0010  0.0034      0.0030 0.0030             False   -0.0006    0.0030  0.0007             True
+blind2unblind       108     -0.0136       -0.0051 -0.0208 -0.0088      0.0000 0.0000             False   -0.0196   -0.0095  0.9977            False
+        dncnn       108     -0.0167       -0.0016 -0.0244 -0.0105      0.0002 0.0003             False   -0.0232   -0.0113  0.9993            False
+   noise2void       108     -0.0267       -0.0111 -0.0377 -0.0194      0.0000 0.0000             False   -0.0358   -0.0205  1.0000            False
+
+Friedman: chi2 = 130.593, df = 5, p = 1.782e-26 (n blocks = 108)
+Mean ranks (1 = best):
+ method
+restormer        2.463
+bm3d             2.611
+none             3.269
+dncnn            3.657
+blind2unblind    4.120
+noise2void       4.880
+Nemenyi post hoc p-values:
+                blind2unblind    bm3d   dncnn  noise2void    none  restormer
+blind2unblind            NaN  0.0000  0.4537       0.034  0.0106     0.0000
+bm3d                  0.0000     NaN  0.0006       0.000  0.1016     0.9922
+dncnn                 0.4537  0.0006     NaN       0.000  0.6464     0.0000
+noise2void            0.0340  0.0000  0.0000         NaN  0.0000     0.0000
+none                  0.0106  0.1016  0.6464       0.000     NaN     0.0194
+restormer             0.0000  0.9922  0.0000       0.000  0.0194        NaN
+
+Recoverable headroom per condition (mAP50):
+ band severity  n_blocks  D_clean  D_degraded  headroom  headroom_sd
+ B04 moderate        12   0.1997      0.1899    0.0097       0.0116
+ B04  nominal        12   0.1997      0.1924    0.0072       0.0091
+ B04   severe        12   0.1997      0.1777    0.0220       0.0187
+ B05 moderate        12   0.2046      0.2078   -0.0033       0.0118
+ B05  nominal        12   0.2046      0.2031    0.0015       0.0093
+ B05   severe        12   0.2046      0.1956    0.0089       0.0124
+ B11 moderate        12   0.1546      0.1528    0.0018       0.0053
+ B11  nominal        12   0.1546      0.1553   -0.0006       0.0022
+ B11   severe        12   0.1546      0.1544    0.0003       0.0067
+
+B05 severe cell:
+ band severity        method  n_blocks  mean_delta  median_delta  bca_lo  bca_hi  wilcoxon_p   p_bh  beats_resolution  headroom  delta_over_headroom
+ B05   severe     restormer        12      0.0032        0.0063 -0.0098  0.0071      0.0376 0.1303             False    0.0089               0.3555
+ B05   severe          bm3d        12      0.0023        0.0045 -0.0075  0.0091      0.4561 0.6311             False    0.0089               0.2584
+ B05   severe         dncnn        12     -0.0039        0.0016 -0.0197  0.0045      0.9687 0.9687             False    0.0089              -0.4327
+ B05   severe    noise2void        12     -0.0182       -0.0001 -0.0461 -0.0020      0.6101 0.6864             False    0.0089              -2.0452
+ B05   severe blind2unblind        12     -0.0206        0.0001 -0.0518 -0.0020      0.5563 0.6588             False    0.0089              -2.3053
+
+
+==================== Section 3.8.7 criteria ====================
+Reference ordering (m): none < restormer < bm3d < dncnn < blind2unblind < noise2void
+variant  crit1_pooled_any_beats crit1_pooled_methods  crit1_any_cell_beats                                                                                     crit1_cells  crit2_order_preserved  crit2_baseline_best_rank                                                  crit2_order  crit3_B05_severe_any_beats                                                                                          crit3_B05_severe
+      m                   False                                      False                                                                                                                   True                      True none < restormer < bm3d < dncnn < blind2unblind < noise2void                       False      best method bm3d, delta 0.0085 [-0.0080, 0.0320], BH p 0.81, beats resolution False, headroom 0.0231
+      c                   False                                       True dncnn@B04/moderate;dncnn@B04/nominal;bm3d@B05/severe;noise2void@B05/severe;restormer@B05/severe                  False                      True none < restormer < dncnn < bm3d < blind2unblind < noise2void                        True       best method bm3d, delta 0.0108 [0.0030, 0.0225], BH p 0.184, beats resolution True, headroom 0.0172
+      e                   False                                       True                                                            bm3d@B04/severe;restormer@B04/severe                  False                     False restormer < bm3d < none < dncnn < blind2unblind < noise2void                       False best method restormer, delta 0.0032 [-0.0098, 0.0071], BH p 0.13, beats resolution False, headroom 0.0089
+
+
+==================== Seed spread (descriptive, no test) ====================
+variant  n_seeds  baseline_mean  baseline_sd  clean_mean  clean_sd
+      m        3         0.2105       0.0197      0.2153    0.0199
+      c        3         0.1847       0.0101      0.1870    0.0089
+      e        3         0.1815       0.0014      0.1848    0.0041
+
+m-to-c baseline difference = -0.0258; m seed SD = 0.0197; OUTSIDE one m SD -> c BELOW m, |diff|/m_SD = 1.31
+
+
+==================== Reproduction check: m seed-0 vs Chapter 4 table ====================
+matched rows: 660 of 660; max |diff| = 0.000000; rows with |diff| > 1e-6: 0
+
+Outputs written to /data/praxis/results_sens/out_py

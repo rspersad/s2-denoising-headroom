@@ -1,0 +1,38 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:               detected   No. Observations:                 3438
+Model:                          Logit   Df Residuals:                     3430
+Method:                           MLE   Df Model:                            7
+Date:                Tue, 13 Oct 2026   Pseudo R-squ.:                 0.09080
+Time:                        16:22:37   Log-Likelihood:                -1877.3
+converged:                       True   LL-Null:                       -2064.8
+Covariance Type:              cluster   LLR p-value:                 5.494e-77
+=======================================================================================================
+                                          coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------
+Intercept                              -0.6339      0.334     -1.898      0.058      -1.288       0.021
+C(band, Treatment('B04'))[T.B05]       -0.5223      0.045    -11.640      0.000      -0.610      -0.434
+C(band, Treatment('B04'))[T.B11]       -0.6126      0.102     -6.034      0.000      -0.812      -0.414
+C(severity)[T.nominal]                  0.0284      0.011      2.611      0.009       0.007       0.050
+C(severity)[T.severe]                  -0.0528      0.058     -0.903      0.366      -0.167       0.062
+la                                      0.2836      0.146      1.943      0.052      -0.002       0.570
+C(band, Treatment('B04'))[T.B05]:la     0.2807      0.065      4.296      0.000       0.153       0.409
+C(band, Treatment('B04'))[T.B11]:la     0.4299      0.135      3.193      0.001       0.166       0.694
+=======================================================================================================
+
+odds ratios:
+ Intercept                              0.531
+C(band, Treatment('B04'))[T.B05]       0.593
+C(band, Treatment('B04'))[T.B11]       0.542
+C(severity)[T.nominal]                 1.029
+C(severity)[T.severe]                  0.949
+la                                     1.328
+C(band, Treatment('B04'))[T.B05]:la    1.324
+C(band, Treatment('B04'))[T.B11]:la    1.537
+dtype: float64
+
+predicted P(detected) at area 12 px²: {'B04': 0.283, 'B05': 0.145, 'B11': 0.116}
+
+predicted P(detected) at area 40 px²: {'B04': 0.357, 'B05': 0.251, 'B11': 0.236}
+
+predicted P(detected) at area 150 px²: {'B04': 0.447, 'B05': 0.414, 'B11': 0.443}

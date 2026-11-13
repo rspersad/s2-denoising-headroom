@@ -1,0 +1,47 @@
+# Ultralytics AGPL-3.0 — YOLOv9m with an added P2/4 small-object head.
+# Outputs P2/4, P3/8, P4/16, P5/32 (stock yolov9m is P3-P5). The P2 head predicts on a
+# stride-4 feature grid so vessels only a few pixels across are resolvable.
+# Derived from ultralytics/cfg/models/v9/yolov9m.yaml (8.4.51).
+
+nc: 80 # number of classes (overridden by data.yaml at train time)
+
+# GELAN backbone (unchanged)
+backbone:
+  - [-1, 1, Conv, [32, 3, 2]] # 0-P1/2
+  - [-1, 1, Conv, [64, 3, 2]] # 1-P2/4
+  - [-1, 1, RepNCSPELAN4, [128, 128, 64, 1]] # 2  (P2/4 feature)
+  - [-1, 1, AConv, [240]] # 3-P3/8
+  - [-1, 1, RepNCSPELAN4, [240, 240, 120, 1]] # 4  (P3/8 feature)
+  - [-1, 1, AConv, [360]] # 5-P4/16
+  - [-1, 1, RepNCSPELAN4, [360, 360, 180, 1]] # 6  (P4/16 feature)
+  - [-1, 1, AConv, [480]] # 7-P5/32
+  - [-1, 1, RepNCSPELAN4, [480, 480, 240, 1]] # 8
+  - [-1, 1, SPPELAN, [480, 240]] # 9  (P5/32 feature)
+
+# FPN top-down to P2, then PAN bottom-up to P5
+head:
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] # 10
+  - [[-1, 6], 1, Concat, [1]] # 11 cat backbone P4
+  - [-1, 1, RepNCSPELAN4, [360, 360, 180, 1]] # 12  (P4 td)
+
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] # 13
+  - [[-1, 4], 1, Concat, [1]] # 14 cat backbone P3
+  - [-1, 1, RepNCSPELAN4, [240, 240, 120, 1]] # 15  (P3 td)
+
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] # 16  NEW
+  - [[-1, 2], 1, Concat, [1]] # 17 cat backbone P2  NEW
+  - [-1, 1, RepNCSPELAN4, [128, 128, 64, 1]] # 18  (P2/4-small)  -> Detect
+
+  - [-1, 1, AConv, [120]] # 19  NEW (P2 -> P3)
+  - [[-1, 15], 1, Concat, [1]] # 20 cat head P3 td
+  - [-1, 1, RepNCSPELAN4, [240, 240, 120, 1]] # 21  (P3/8)  -> Detect
+
+  - [-1, 1, AConv, [180]] # 22  (P3 -> P4)
+  - [[-1, 12], 1, Concat, [1]] # 23 cat head P4 td
+  - [-1, 1, RepNCSPELAN4, [360, 360, 180, 1]] # 24  (P4/16)  -> Detect
+
+  - [-1, 1, AConv, [240]] # 25  (P4 -> P5)
+  - [[-1, 9], 1, Concat, [1]] # 26 cat backbone P5
+  - [-1, 1, RepNCSPELAN4, [480, 480, 240, 1]] # 27  (P5/32)  -> Detect
+
+  - [[18, 21, 24, 27], 1, Detect, [nc]] # 28 Detect(P2, P3, P4, P5)

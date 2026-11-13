@@ -1,0 +1,25 @@
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                    detected   No. Observations:                 3438
+Model:                                 GEE   No. clusters:                        4
+Method:                        Generalized   Min. cluster size:                 513
+                      Estimating Equations   Max. cluster size:                1305
+Family:                           Binomial   Mean cluster size:               859.5
+Dependence structure:         Exchangeable   Num. iterations:                    60
+Date:                     Mon, 02 Nov 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         00:53:11
+=============================================================================================================
+                                                coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------
+Intercept                                        nan        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B05]                 nan        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B11]                 nan        nan        nan        nan         nan         nan
+C(severity)[T.nominal]                           nan        nan        nan        nan         nan         nan
+C(severity)[T.severe]                            nan        nan        nan        nan         nan         nan
+log_area                                         nan        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B05]:log_area        nan        nan        nan        nan         nan         nan
+C(band, Treatment('B04'))[T.B11]:log_area        nan        nan        nan        nan         nan         nan
+==============================================================================
+Skew:                             nan   Kurtosis:                          nan
+Centered skew:                    nan   Centered kurtosis:                 nan
+==============================================================================

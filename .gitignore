@@ -1,0 +1,19 @@
+# Large artifacts live in the external archive, not in Git
+*.pt
+*.pth
+*.onnx
+*.tif
+*.tiff
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+data/archive/
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Never publish credentials or local paths
+.env
+*.token

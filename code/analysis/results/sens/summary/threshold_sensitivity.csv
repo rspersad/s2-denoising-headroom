@@ -1,0 +1,8 @@
+threshold,pooled_bm3d_restormer,pooled_all_methods,cells_bm3d_restormer,cells_all_methods,marker
+0.002,6,6,37,50,
+0.003,6,6,34,47,
+0.004,3,3,29,40,
+0.005,1,1,25,35,<-- RESOLUTION
+0.006,1,1,23,32,
+0.007,0,0,18,27,
+0.008,0,0,17,26,

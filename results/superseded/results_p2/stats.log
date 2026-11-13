@@ -1,0 +1,49 @@
+nohup: ignoring input
+methods present: ['clean', 'none', 'bm3d', 'dncnn', 'noise2void', 'blind2unblind', 'restormer']
+baseline: none | denoisers tested: ['bm3d', 'dncnn', 'noise2void', 'blind2unblind', 'restormer']
+
+method        axis      mean d            95% BCa CI  wilcoxon p
+bm3d          mAP50     0.0013   [ -0.0019,  0.0053]       0.514
+bm3d          PSNR      3.7677   [  3.5086,  4.0406]    1.87e-19
+dncnn         mAP50    -0.0089   [ -0.0140, -0.0039]     0.00314
+dncnn         PSNR     -5.0950   [ -5.5865, -4.5923]    1.87e-19
+noise2void    mAP50    -0.0236   [ -0.0333, -0.0167]    7.23e-10
+noise2void    PSNR     -7.8868   [ -8.5881, -7.1843]    2.84e-19
+blind2unblind mAP50    -0.0180   [ -0.0232, -0.0135]    4.98e-11
+blind2unblind PSNR     -7.7672   [ -8.3761, -7.1320]    1.87e-19
+restormer     mAP50     0.0004   [ -0.0022,  0.0036]       0.669
+restormer     PSNR      6.6270   [  6.0699,  7.1600]    1.87e-19
+
+=== Benjamini-Hochberg (q=0.05) ===
+  bm3d          mAP50  p_adj=0.571  n.s.
+  bm3d          PSNR   p_adj=4.67e-19  SIGNIFICANT
+  dncnn         mAP50  p_adj=0.00393  SIGNIFICANT
+  dncnn         PSNR   p_adj=4.67e-19  SIGNIFICANT
+  noise2void    mAP50  p_adj=1.03e-09  SIGNIFICANT
+  noise2void    PSNR   p_adj=5.68e-19  SIGNIFICANT
+  blind2unblind mAP50  p_adj=8.29e-11  SIGNIFICANT
+  blind2unblind PSNR   p_adj=4.67e-19  SIGNIFICANT
+  restormer     mAP50  p_adj=0.669  n.s.
+  restormer     PSNR   p_adj=4.67e-19  SIGNIFICANT
+
+=== Friedman (mAP50) ===
+  chi2=74.77  p=1.04e-14  (N=108 blocks, k=6)
+  CD=0.725 | mean ranks: none=4.25, bm3d=3.95, dncnn=3.37, noise2void=2.57, blind2unblind=2.81, restormer=4.05
+
+=== Friedman (PSNR) ===
+  chi2=495.00  p=9.58e-105  (N=108 blocks, k=6)
+  CD=0.725 | mean ranks: none=3.97, bm3d=5.03, dncnn=2.69, noise2void=1.69, blind2unblind=1.64, restormer=5.97
+
+=== coverage: 108 blocks in the full design ===
+  full coverage: none, bm3d, dncnn, noise2void, blind2unblind, restormer
+  restricted:    (none)
+
+=== Friedman, all severities (mAP50) ===
+  chi2=74.77  p=1.04e-14  (N=108 blocks, k=6)
+  CD=0.725 | mean ranks: none=4.25, bm3d=3.95, dncnn=3.37, noise2void=2.57, blind2unblind=2.81, restormer=4.05
+
+=== Friedman, all severities (PSNR) ===
+  chi2=495.00  p=9.58e-105  (N=108 blocks, k=6)
+  CD=0.725 | mean ranks: none=3.97, bm3d=5.03, dncnn=2.69, noise2void=1.69, blind2unblind=1.64, restormer=5.97
+
+[written] /data/praxis/results_p2/stats_summary.json

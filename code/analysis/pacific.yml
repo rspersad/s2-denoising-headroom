@@ -1,0 +1,36 @@
+name: pacific
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - scikit-image
+  - statsmodels
+  - opencv
+  - rasterio
+  - gdal
+  - pyproj
+  - shapely
+  - fiona
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - tqdm
+  - pyyaml
+  - h5py
+  - pillow
+  - requests
+  - pip
+  - pip:
+      - torch==2.4.0
+      - torchvision==0.19.0
+      - --index-url https://download.pytorch.org/whl/cu121
+      - ultralytics
+      - bm3d
+      - mlflow
+      - tensorboard

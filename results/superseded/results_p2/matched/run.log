@@ -1,0 +1,1156 @@
+nohup: ignoring input
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+YOLOv9m-p2 summary (fused): 189 layers, 19,216,828 parameters, 0 gradients, 107.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6881.1±576.5 MB/s, size: 326.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_dmzdqdov/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.0Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_dmzdqdov/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 6.6it/s 0.2s
+                   all          8        187       0.36     0.0909     0.0695     0.0142
+Speed: 0.2ms preprocess, 10.0ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/panama/B04/moderate/r0  tiles=8 gt=187  mAP50=0.069 PSNR=49.43 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8854.4±1065.8 MB/s, size: 332.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_9lzz3a25/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_9lzz3a25/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        187      0.314     0.0856     0.0727     0.0165
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B04/moderate/r1  tiles=8 gt=187  mAP50=0.073 PSNR=49.43 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9623.6±995.8 MB/s, size: 332.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ti9o7izq/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ti9o7izq/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        187      0.321     0.0963     0.0746      0.018
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B04/moderate/r2  tiles=8 gt=187  mAP50=0.075 PSNR=49.42 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 11520.3±905.2 MB/s, size: 340.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_1v34lmti/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_1v34lmti/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.8it/s 0.1s
+                   all          8        187       0.27     0.0963     0.0697     0.0156
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B04/severe/r0  tiles=8 gt=187  mAP50=0.070 PSNR=47.23 SSIM=0.992
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9193.8±1706.2 MB/s, size: 328.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_1l3ut653/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_1l3ut653/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        187      0.403     0.0909     0.0736     0.0169
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B04/severe/r1  tiles=8 gt=187  mAP50=0.074 PSNR=47.23 SSIM=0.992
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8491.6±1399.9 MB/s, size: 335.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_023ug687/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_023ug687/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        187      0.342     0.0909     0.0715     0.0147
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B04/severe/r2  tiles=8 gt=187  mAP50=0.071 PSNR=47.23 SSIM=0.992
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 11720.5±1146.9 MB/s, size: 266.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ceatoroj/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ceatoroj/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.407      0.102     0.0951     0.0205
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B05/moderate/r0  tiles=8 gt=187  mAP50=0.095 PSNR=46.67 SSIM=0.994
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9488.9±849.1 MB/s, size: 274.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_uzj58bxc/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_uzj58bxc/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.437      0.107     0.0928     0.0232
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B05/moderate/r1  tiles=8 gt=187  mAP50=0.093 PSNR=46.67 SSIM=0.994
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8509.1±1585.0 MB/s, size: 272.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_lfm3zm0l/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_lfm3zm0l/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        187      0.462       0.11      0.106     0.0226
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B05/moderate/r2  tiles=8 gt=187  mAP50=0.106 PSNR=46.68 SSIM=0.994
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9968.9±1746.3 MB/s, size: 276.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_y0ml4ixt/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_y0ml4ixt/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        187      0.652      0.102      0.103     0.0201
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B05/severe/r0  tiles=8 gt=187  mAP50=0.103 PSNR=47.81 SSIM=0.992
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9097.0±1773.2 MB/s, size: 273.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval__vcgffv4/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval__vcgffv4/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187       0.58     0.0963     0.0978     0.0224
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B05/severe/r1  tiles=8 gt=187  mAP50=0.098 PSNR=47.81 SSIM=0.992
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8836.2±1265.0 MB/s, size: 276.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_b8k4rs2o/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_b8k4rs2o/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.738      0.102      0.103      0.021
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B05/severe/r2  tiles=8 gt=187  mAP50=0.103 PSNR=47.82 SSIM=0.992
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9584.8±2369.3 MB/s, size: 256.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_fsojgkek/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_fsojgkek/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.441      0.118      0.122       0.03
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B11/moderate/r0  tiles=8 gt=187  mAP50=0.122 PSNR=50.88 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9257.4±1814.4 MB/s, size: 253.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_mxrwc1gq/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_mxrwc1gq/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        187      0.391      0.102      0.101     0.0286
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B11/moderate/r1  tiles=8 gt=187  mAP50=0.101 PSNR=50.88 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8622.5±1694.6 MB/s, size: 250.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_bmbxp2vt/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_bmbxp2vt/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        187      0.449      0.118       0.12     0.0311
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B11/moderate/r2  tiles=8 gt=187  mAP50=0.120 PSNR=50.88 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9389.3±1848.2 MB/s, size: 267.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_5pn70wxf/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_5pn70wxf/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.682      0.102      0.111      0.026
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B11/severe/r0  tiles=8 gt=187  mAP50=0.111 PSNR=52.84 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9234.7±1996.8 MB/s, size: 254.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_qe_gwr8c/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_qe_gwr8c/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.467      0.107       0.11     0.0288
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B11/severe/r1  tiles=8 gt=187  mAP50=0.110 PSNR=52.87 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8685.3±1737.0 MB/s, size: 272.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_681lfjnl/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_681lfjnl/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.604     0.0963     0.0971     0.0253
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/panama/B11/severe/r2  tiles=8 gt=187  mAP50=0.097 PSNR=52.85 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8630.6±1415.1 MB/s, size: 326.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ddue39qm/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ddue39qm/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        117      0.321       0.35      0.199     0.0387
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rome/B04/moderate/r0  tiles=8 gt=117  mAP50=0.199 PSNR=50.77 SSIM=0.988
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8864.4±1387.1 MB/s, size: 344.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ng5m1ws7/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ng5m1ws7/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        117      0.357       0.35       0.21     0.0394
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rome/B04/moderate/r1  tiles=8 gt=117  mAP50=0.210 PSNR=50.78 SSIM=0.988
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8583.6±1025.0 MB/s, size: 306.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_0d6o6lro/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_0d6o6lro/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        117      0.307       0.35      0.166     0.0349
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rome/B04/moderate/r2  tiles=8 gt=117  mAP50=0.166 PSNR=50.78 SSIM=0.988
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7968.3±1171.8 MB/s, size: 322.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_be_ktzzo/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_be_ktzzo/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        117      0.349      0.436       0.29      0.067
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rome/B04/severe/r0  tiles=8 gt=117  mAP50=0.290 PSNR=52.31 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9537.3±1401.1 MB/s, size: 333.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_d5f1isuv/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_d5f1isuv/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        117      0.402      0.385      0.315     0.0733
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rome/B04/severe/r1  tiles=8 gt=117  mAP50=0.315 PSNR=52.31 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8730.5±1561.8 MB/s, size: 337.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_fucckv4i/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_fucckv4i/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        117      0.394      0.359      0.287     0.0699
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B04/severe/r2  tiles=8 gt=117  mAP50=0.287 PSNR=52.31 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9683.6±2001.4 MB/s, size: 239.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_6fkcng_x/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_6fkcng_x/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        117      0.326      0.359      0.219     0.0565
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B05/moderate/r0  tiles=8 gt=117  mAP50=0.219 PSNR=52.31 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8408.2±1612.9 MB/s, size: 260.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_p1eftznb/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_p1eftznb/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        117      0.327      0.342      0.214     0.0536
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B05/moderate/r1  tiles=8 gt=117  mAP50=0.214 PSNR=52.36 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8666.7±1853.8 MB/s, size: 262.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_a3g5v5kg/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_a3g5v5kg/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        117      0.257      0.325      0.192     0.0517
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B05/moderate/r2  tiles=8 gt=117  mAP50=0.192 PSNR=52.34 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9376.1±1976.7 MB/s, size: 259.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_x7ix1cgv/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_x7ix1cgv/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        117      0.339      0.239      0.153     0.0399
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B05/severe/r0  tiles=8 gt=117  mAP50=0.153 PSNR=51.78 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8981.3±1664.5 MB/s, size: 279.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_89v8l4_a/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_89v8l4_a/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        117      0.389      0.179      0.139     0.0361
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B05/severe/r1  tiles=8 gt=117  mAP50=0.139 PSNR=51.79 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8051.1±1721.1 MB/s, size: 280.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_wx8_r4sf/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_wx8_r4sf/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        117      0.252      0.274      0.136     0.0422
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B05/severe/r2  tiles=8 gt=117  mAP50=0.136 PSNR=51.77 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8667.1±1317.5 MB/s, size: 225.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_bg1wvc2w/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_bg1wvc2w/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.8it/s 0.1s
+                   all          8        117      0.385      0.137     0.0851     0.0253
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B11/moderate/r0  tiles=8 gt=117  mAP50=0.085 PSNR=55.61 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 5318.7±3812.8 MB/s, size: 150.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_3_qeaucr/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_3_qeaucr/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.8it/s 0.1s
+                   all          8        117      0.369      0.128     0.0873     0.0285
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B11/moderate/r1  tiles=8 gt=117  mAP50=0.087 PSNR=55.57 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8705.8±1785.5 MB/s, size: 230.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_i_7dvd2b/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_i_7dvd2b/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        117      0.387      0.137     0.0895     0.0246
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B11/moderate/r2  tiles=8 gt=117  mAP50=0.089 PSNR=55.60 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7193.5±3436.1 MB/s, size: 195.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_7lnd5pwb/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.8Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_7lnd5pwb/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.8it/s 0.1s
+                   all          8        117      0.477      0.154      0.151     0.0398
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B11/severe/r0  tiles=8 gt=117  mAP50=0.151 PSNR=54.73 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7449.1±4181.3 MB/s, size: 179.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_9t_68pnf/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_9t_68pnf/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        117      0.352      0.171       0.14     0.0373
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B11/severe/r1  tiles=8 gt=117  mAP50=0.140 PSNR=54.72 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 5363.7±3594.9 MB/s, size: 159.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_o1lcsrzr/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_o1lcsrzr/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.8it/s 0.1s
+                   all          8        117        0.5      0.145      0.128     0.0342
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/rome/B11/severe/r2  tiles=8 gt=117  mAP50=0.128 PSNR=54.74 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9269.2±1926.4 MB/s, size: 269.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_y69ywtey/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_y69ywtey/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        333      0.241      0.177     0.0801     0.0189
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/brest1/B04/moderate/r0  tiles=8 gt=333  mAP50=0.080 PSNR=49.78 SSIM=0.987
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7483.3±771.1 MB/s, size: 272.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_z2c34g3r/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_z2c34g3r/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        333      0.217      0.177     0.0783     0.0181
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B04/moderate/r1  tiles=8 gt=333  mAP50=0.078 PSNR=49.78 SSIM=0.987
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8029.4±1152.8 MB/s, size: 282.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_32qlg47v/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_32qlg47v/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        333      0.219       0.18     0.0836     0.0189
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/brest1/B04/moderate/r2  tiles=8 gt=333  mAP50=0.084 PSNR=49.78 SSIM=0.987
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9866.8±1699.3 MB/s, size: 289.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_6zrki64w/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_6zrki64w/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        333      0.399      0.288      0.215     0.0506
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/brest1/B04/severe/r0  tiles=8 gt=333  mAP50=0.215 PSNR=52.32 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8952.7±1628.3 MB/s, size: 289.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_p9jlpkio/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_p9jlpkio/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        333       0.35      0.294      0.182     0.0418
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B04/severe/r1  tiles=8 gt=333  mAP50=0.182 PSNR=52.31 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 10332.0±1924.8 MB/s, size: 283.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_zo9efqbm/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_zo9efqbm/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        333       0.35      0.321      0.194     0.0431
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/brest1/B04/severe/r2  tiles=8 gt=333  mAP50=0.194 PSNR=52.31 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8079.4±1181.5 MB/s, size: 240.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_mihe2bu4/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_mihe2bu4/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333      0.276      0.222      0.131     0.0313
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/brest1/B05/moderate/r0  tiles=8 gt=333  mAP50=0.131 PSNR=55.41 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8144.8±1530.1 MB/s, size: 211.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_4lzl8pb_/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_4lzl8pb_/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333      0.248      0.234      0.125     0.0298
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B05/moderate/r1  tiles=8 gt=333  mAP50=0.125 PSNR=55.41 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8851.0±1271.6 MB/s, size: 229.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_q9_bdhtp/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_q9_bdhtp/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        333      0.261      0.231      0.126     0.0304
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B05/moderate/r2  tiles=8 gt=333  mAP50=0.126 PSNR=55.43 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9041.3±1604.8 MB/s, size: 247.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_9brbatw7/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_9brbatw7/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        333       0.28      0.231      0.131     0.0312
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B05/severe/r0  tiles=8 gt=333  mAP50=0.131 PSNR=52.44 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9068.1±1611.0 MB/s, size: 255.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_b73lguu8/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_b73lguu8/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        333      0.263      0.228      0.114     0.0278
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B05/severe/r1  tiles=8 gt=333  mAP50=0.114 PSNR=52.43 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9031.6±1564.3 MB/s, size: 242.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_n91i6v35/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_n91i6v35/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        333      0.244      0.186      0.107     0.0259
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B05/severe/r2  tiles=8 gt=333  mAP50=0.107 PSNR=52.44 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7513.5±2557.1 MB/s, size: 151.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_8n4ml63w/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_8n4ml63w/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        333      0.261      0.198     0.0919     0.0167
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B11/moderate/r0  tiles=8 gt=333  mAP50=0.092 PSNR=56.77 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6170.4±1562.1 MB/s, size: 119.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_50in3jw3/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_50in3jw3/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        333      0.238      0.187     0.0894     0.0165
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B11/moderate/r1  tiles=8 gt=333  mAP50=0.089 PSNR=56.76 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 5861.8±3000.6 MB/s, size: 94.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_l4clakcg/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_l4clakcg/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        333      0.248      0.189     0.0887      0.016
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B11/moderate/r2  tiles=8 gt=333  mAP50=0.089 PSNR=56.76 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7446.9±1137.8 MB/s, size: 157.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_a1z3zsb_/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_a1z3zsb_/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        333      0.248      0.201      0.107     0.0216
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B11/severe/r0  tiles=8 gt=333  mAP50=0.107 PSNR=55.64 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6724.8±3171.4 MB/s, size: 164.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_etzkwsg2/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_etzkwsg2/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        333      0.243      0.204      0.106     0.0209
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B11/severe/r1  tiles=8 gt=333  mAP50=0.106 PSNR=55.62 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6133.9±3380.0 MB/s, size: 129.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_j05x53oe/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_j05x53oe/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        333       0.27      0.207      0.111     0.0218
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] dncnn/brest1/B11/severe/r2  tiles=8 gt=333  mAP50=0.111 PSNR=55.64 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8552.8±1589.5 MB/s, size: 300.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_co81fs3b/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_co81fs3b/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        239      0.532      0.467       0.39      0.122
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B04/moderate/r0  tiles=8 gt=239  mAP50=0.390 PSNR=54.21 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8692.1±1410.9 MB/s, size: 295.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_xsm0w5c_/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_xsm0w5c_/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        239      0.533      0.477      0.395      0.122
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B04/moderate/r1  tiles=8 gt=239  mAP50=0.395 PSNR=54.21 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9198.1±1610.2 MB/s, size: 298.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_7uyvrz2k/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_7uyvrz2k/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        239       0.56      0.479      0.405      0.123
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B04/moderate/r2  tiles=8 gt=239  mAP50=0.405 PSNR=54.20 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8969.3±1627.0 MB/s, size: 317.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_c59__0i4/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_c59__0i4/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.8it/s 0.1s
+                   all          8        239      0.568      0.452      0.425      0.131
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B04/severe/r0  tiles=8 gt=239  mAP50=0.425 PSNR=51.42 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9177.6±1510.9 MB/s, size: 313.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_57fr_28s/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_57fr_28s/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.8it/s 0.1s
+                   all          8        239      0.543      0.431      0.387      0.122
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B04/severe/r1  tiles=8 gt=239  mAP50=0.387 PSNR=51.44 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8045.1±1184.8 MB/s, size: 315.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_mowr5zsk/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_mowr5zsk/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.8it/s 0.1s
+                   all          8        239      0.549      0.439      0.395      0.123
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B04/severe/r2  tiles=8 gt=239  mAP50=0.395 PSNR=51.42 SSIM=0.995
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9048.2±1717.5 MB/s, size: 262.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_5q3o_0vt/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_5q3o_0vt/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239       0.51      0.401      0.415      0.143
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B05/moderate/r0  tiles=8 gt=239  mAP50=0.415 PSNR=53.32 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9202.1±1564.2 MB/s, size: 264.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ow0xgavz/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ow0xgavz/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.548      0.368      0.395      0.142
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B05/moderate/r1  tiles=8 gt=239  mAP50=0.395 PSNR=53.31 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8899.7±1370.4 MB/s, size: 263.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_hpo4bpvm/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_hpo4bpvm/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.539      0.391      0.409      0.142
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B05/moderate/r2  tiles=8 gt=239  mAP50=0.409 PSNR=53.31 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8329.9±1134.3 MB/s, size: 282.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_s1pz70xv/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_s1pz70xv/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        239      0.535      0.402      0.399      0.147
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B05/severe/r0  tiles=8 gt=239  mAP50=0.399 PSNR=51.24 SSIM=0.994
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8977.2±1270.3 MB/s, size: 283.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_dwg1qn1j/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_dwg1qn1j/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        239      0.497      0.439      0.411      0.152
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B05/severe/r1  tiles=8 gt=239  mAP50=0.411 PSNR=51.24 SSIM=0.994
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8857.5±1844.9 MB/s, size: 282.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ah1d53cs/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ah1d53cs/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        239      0.535      0.389      0.402      0.141
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B05/severe/r2  tiles=8 gt=239  mAP50=0.402 PSNR=51.24 SSIM=0.994
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9074.7±1542.0 MB/s, size: 266.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_nxhfc7qj/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_nxhfc7qj/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.574      0.364      0.382      0.115
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B11/moderate/r0  tiles=8 gt=239  mAP50=0.382 PSNR=54.25 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9139.7±1629.0 MB/s, size: 260.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_blidhw7d/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_blidhw7d/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.596       0.36      0.384      0.118
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B11/moderate/r1  tiles=8 gt=239  mAP50=0.384 PSNR=54.23 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8990.8±1537.4 MB/s, size: 264.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_vy92i0jm/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_vy92i0jm/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.596      0.364      0.392      0.121
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B11/moderate/r2  tiles=8 gt=239  mAP50=0.392 PSNR=54.23 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8375.8±1894.2 MB/s, size: 271.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_b4kjg01l/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_b4kjg01l/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 7.9it/s 0.1s
+                   all          8        239        0.6      0.396      0.387      0.128
+Speed: 0.2ms preprocess, 9.6ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B11/severe/r0  tiles=8 gt=239  mAP50=0.387 PSNR=54.48 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8986.1±1576.4 MB/s, size: 270.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_1ydeorla/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_1ydeorla/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.556      0.389      0.391      0.123
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B11/severe/r1  tiles=8 gt=239  mAP50=0.391 PSNR=54.49 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8439.3±1463.6 MB/s, size: 271.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_kpbqvqxp/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_kpbqvqxp/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.619      0.381      0.397      0.125
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] dncnn/rotterdam1/B11/severe/r2  tiles=8 gt=239  mAP50=0.397 PSNR=54.50 SSIM=0.998
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8320.7±1315.3 MB/s, size: 287.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_w7cww06i/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_w7cww06i/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.293     0.0856     0.0644     0.0143
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/panama/B04/moderate/r0  tiles=8 gt=187  mAP50=0.064 PSNR=55.93 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7722.1±1199.3 MB/s, size: 285.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_15s4b3am/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_15s4b3am/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.293     0.0856     0.0654     0.0143
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/panama/B04/moderate/r1  tiles=8 gt=187  mAP50=0.065 PSNR=55.94 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9132.2±1397.0 MB/s, size: 300.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_apoxxoqu/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_apoxxoqu/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.309     0.0909     0.0704     0.0138
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/panama/B04/moderate/r2  tiles=8 gt=187  mAP50=0.070 PSNR=55.93 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8204.1±989.4 MB/s, size: 300.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_z4pey_ea/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_z4pey_ea/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.233     0.0909     0.0635     0.0137
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/panama/B04/severe/r0  tiles=8 gt=187  mAP50=0.063 PSNR=53.72 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8351.6±1441.0 MB/s, size: 291.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_b794ig1g/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_b794ig1g/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.306     0.0963      0.064     0.0148
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/panama/B04/severe/r1  tiles=8 gt=187  mAP50=0.064 PSNR=53.72 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8617.4±1144.8 MB/s, size: 291.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_25nvpqtb/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.8Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_25nvpqtb/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        187      0.272     0.0856     0.0623     0.0119
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/panama/B04/severe/r2  tiles=8 gt=187  mAP50=0.062 PSNR=53.73 SSIM=0.997
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9046.6±1692.6 MB/s, size: 217.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_n_rk2ub_/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_n_rk2ub_/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.616      0.102      0.107      0.022
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B05/moderate/r0  tiles=8 gt=187  mAP50=0.107 PSNR=57.32 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8336.8±1237.3 MB/s, size: 229.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_g32eafqp/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_g32eafqp/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        187      0.406      0.112      0.098     0.0234
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B05/moderate/r1  tiles=8 gt=187  mAP50=0.098 PSNR=57.32 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8749.7±1898.6 MB/s, size: 220.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_0vebztrq/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_0vebztrq/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187       0.62      0.102      0.105      0.022
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B05/moderate/r2  tiles=8 gt=187  mAP50=0.105 PSNR=57.34 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8801.5±1641.5 MB/s, size: 218.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_4nvpzerx/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_4nvpzerx/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        187      0.422      0.117      0.104     0.0211
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B05/severe/r0  tiles=8 gt=187  mAP50=0.104 PSNR=55.66 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9248.0±2034.3 MB/s, size: 214.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_paq03xsv/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_paq03xsv/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.543     0.0963     0.0992     0.0214
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B05/severe/r1  tiles=8 gt=187  mAP50=0.099 PSNR=55.66 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7267.0±1758.3 MB/s, size: 213.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_4u9y7fjz/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_4u9y7fjz/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.2it/s 0.1s
+                   all          8        187      0.648     0.0963     0.0947     0.0202
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B05/severe/r2  tiles=8 gt=187  mAP50=0.095 PSNR=55.67 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9097.6±1891.5 MB/s, size: 216.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_gmsp6t6q/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_gmsp6t6q/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.752      0.102       0.12     0.0287
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B11/moderate/r0  tiles=8 gt=187  mAP50=0.120 PSNR=61.62 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7181.9±740.1 MB/s, size: 212.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_19f_pccw/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_19f_pccw/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.868      0.102      0.118     0.0273
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B11/moderate/r1  tiles=8 gt=187  mAP50=0.118 PSNR=61.63 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 9140.7±1857.2 MB/s, size: 209.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_y4su0zpu/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_y4su0zpu/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.402      0.118      0.119     0.0272
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B11/moderate/r2  tiles=8 gt=187  mAP50=0.119 PSNR=61.62 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8288.8±2145.0 MB/s, size: 216.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_adq1qhd_/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_adq1qhd_/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.601      0.107      0.118     0.0274
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B11/severe/r0  tiles=8 gt=187  mAP50=0.118 PSNR=60.26 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8587.3±1392.1 MB/s, size: 214.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ujt1t9ui/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ujt1t9ui/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.442      0.115      0.122     0.0306
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B11/severe/r1  tiles=8 gt=187  mAP50=0.122 PSNR=60.27 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7799.8±1070.8 MB/s, size: 212.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_lmx77pgo/labels/val... 8 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_lmx77pgo/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        187      0.559      0.102      0.108      0.027
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/panama/B11/severe/r2  tiles=8 gt=187  mAP50=0.108 PSNR=60.26 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7549.6±1414.0 MB/s, size: 243.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_7nurpw_p/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_7nurpw_p/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.4it/s 0.1s
+                   all          8        117       0.45      0.436      0.336     0.0869
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rome/B04/moderate/r0  tiles=8 gt=117  mAP50=0.336 PSNR=61.01 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7230.8±1396.5 MB/s, size: 180.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_y5kp8fll/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_y5kp8fll/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        117      0.473      0.419      0.329     0.0834
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rome/B04/moderate/r1  tiles=8 gt=117  mAP50=0.329 PSNR=61.00 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8230.1±1595.8 MB/s, size: 254.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_hqrr6tou/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_hqrr6tou/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        117      0.491       0.41      0.342     0.0874
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rome/B04/moderate/r2  tiles=8 gt=117  mAP50=0.342 PSNR=61.01 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6940.3±1495.7 MB/s, size: 245.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_sxpfx_oo/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_sxpfx_oo/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        117       0.45      0.427      0.305     0.0771
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rome/B04/severe/r0  tiles=8 gt=117  mAP50=0.305 PSNR=58.10 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7455.4±2249.5 MB/s, size: 212.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_8gzfz7n9/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_8gzfz7n9/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        117      0.531      0.419      0.373     0.0928
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rome/B04/severe/r1  tiles=8 gt=117  mAP50=0.373 PSNR=58.11 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6716.2±2021.3 MB/s, size: 277.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_6jotk_47/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_6jotk_47/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        117        0.5      0.419       0.36     0.0902
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rome/B04/severe/r2  tiles=8 gt=117  mAP50=0.360 PSNR=58.10 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6604.3±2627.4 MB/s, size: 164.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_1ctgmp6u/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 3.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_1ctgmp6u/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        117      0.322      0.359      0.235     0.0598
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B05/moderate/r0  tiles=8 gt=117  mAP50=0.235 PSNR=65.24 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7707.0±1909.8 MB/s, size: 194.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_g8nmpc_i/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_g8nmpc_i/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.6it/s 0.1s
+                   all          8        117      0.297       0.35      0.214     0.0532
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B05/moderate/r1  tiles=8 gt=117  mAP50=0.214 PSNR=65.26 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6864.2±1724.5 MB/s, size: 158.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_k420s7o6/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_k420s7o6/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        117       0.29       0.35       0.19     0.0484
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B05/moderate/r2  tiles=8 gt=117  mAP50=0.190 PSNR=65.24 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6810.3±1754.1 MB/s, size: 120.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_yvf0_su5/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_yvf0_su5/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        117      0.317      0.325      0.207     0.0501
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B05/severe/r0  tiles=8 gt=117  mAP50=0.207 PSNR=62.27 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6572.3±1603.3 MB/s, size: 163.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_2w9xn81l/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_2w9xn81l/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        117      0.325      0.325        0.2     0.0508
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B05/severe/r1  tiles=8 gt=117  mAP50=0.200 PSNR=62.30 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7917.2±2537.1 MB/s, size: 166.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_yxzxir09/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_yxzxir09/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        117      0.368      0.359       0.22     0.0619
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B05/severe/r2  tiles=8 gt=117  mAP50=0.220 PSNR=62.29 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6019.5±2813.0 MB/s, size: 149.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_5uajy7qk/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.8Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_5uajy7qk/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        117      0.251      0.188       0.12     0.0346
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B11/moderate/r0  tiles=8 gt=117  mAP50=0.120 PSNR=68.84 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6641.4±3507.6 MB/s, size: 162.4 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_g0tq2ku5/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_g0tq2ku5/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        117      0.418      0.179      0.138     0.0339
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B11/moderate/r1  tiles=8 gt=117  mAP50=0.138 PSNR=68.83 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 5790.5±2679.8 MB/s, size: 146.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_30b_oe6j/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_30b_oe6j/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        117      0.476      0.137      0.116     0.0306
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B11/moderate/r2  tiles=8 gt=117  mAP50=0.116 PSNR=68.84 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7733.7±1712.5 MB/s, size: 186.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_iul4p8db/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.9Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_iul4p8db/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.9it/s 0.1s
+                   all          8        117      0.389      0.179      0.133      0.036
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B11/severe/r0  tiles=8 gt=117  mAP50=0.133 PSNR=66.81 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 5356.3±4240.4 MB/s, size: 134.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_wz612p3h/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_wz612p3h/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        117      0.463      0.137      0.116     0.0316
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B11/severe/r1  tiles=8 gt=117  mAP50=0.116 PSNR=66.84 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6723.7±3335.5 MB/s, size: 186.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_71t27ib5/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_71t27ib5/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        117      0.443      0.145       0.13     0.0342
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/rome/B11/severe/r2  tiles=8 gt=117  mAP50=0.130 PSNR=66.78 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8214.7±1804.1 MB/s, size: 170.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_1dpvv3sa/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_1dpvv3sa/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333      0.386      0.327      0.227     0.0554
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B04/moderate/r0  tiles=8 gt=333  mAP50=0.227 PSNR=61.43 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7787.6±446.9 MB/s, size: 167.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_gi21fewv/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_gi21fewv/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333      0.349      0.324      0.213     0.0516
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B04/moderate/r1  tiles=8 gt=333  mAP50=0.213 PSNR=61.42 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7892.5±788.3 MB/s, size: 187.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_1c4vv6t0/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_1c4vv6t0/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333      0.353       0.33      0.214     0.0523
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B04/moderate/r2  tiles=8 gt=333  mAP50=0.214 PSNR=61.42 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7460.3±1661.8 MB/s, size: 182.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_0x61o0s5/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_0x61o0s5/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333       0.38      0.339       0.23     0.0562
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B04/severe/r0  tiles=8 gt=333  mAP50=0.230 PSNR=58.34 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8267.9±1284.0 MB/s, size: 177.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_z9wdsm13/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_z9wdsm13/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333      0.371      0.319      0.208     0.0491
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B04/severe/r1  tiles=8 gt=333  mAP50=0.208 PSNR=58.35 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7505.5±1613.0 MB/s, size: 179.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ogpae76a/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ogpae76a/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.5it/s 0.1s
+                   all          8        333      0.354      0.306      0.204     0.0513
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B04/severe/r2  tiles=8 gt=333  mAP50=0.204 PSNR=58.34 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6849.5±1813.2 MB/s, size: 120.1 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_jzodqauf/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_jzodqauf/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.6it/s 0.1s
+                   all          8        333      0.297      0.207      0.128     0.0294
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B05/moderate/r0  tiles=8 gt=333  mAP50=0.128 PSNR=66.06 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7170.0±1542.8 MB/s, size: 136.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_awpuqy1o/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_awpuqy1o/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.8it/s 0.1s
+                   all          8        333       0.28      0.222      0.133     0.0313
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B05/moderate/r1  tiles=8 gt=333  mAP50=0.133 PSNR=66.09 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7761.2±1981.3 MB/s, size: 128.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_m74qnavu/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_m74qnavu/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        333      0.264      0.231      0.124     0.0297
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B05/moderate/r2  tiles=8 gt=333  mAP50=0.124 PSNR=66.10 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6458.8±1379.3 MB/s, size: 126.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_q7hk0ipl/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 3.1Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_q7hk0ipl/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        333      0.301      0.234      0.136      0.031
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B05/severe/r0  tiles=8 gt=333  mAP50=0.136 PSNR=62.99 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7250.8±2036.6 MB/s, size: 139.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_g_3ygtw4/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_g_3ygtw4/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.8it/s 0.1s
+                   all          8        333      0.234      0.219      0.114     0.0287
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B05/severe/r1  tiles=8 gt=333  mAP50=0.114 PSNR=62.97 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6452.3±1488.7 MB/s, size: 106.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_r20f09tq/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_r20f09tq/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.7it/s 0.1s
+                   all          8        333      0.283      0.202      0.119     0.0281
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/brest1/B05/severe/r2  tiles=8 gt=333  mAP50=0.119 PSNR=62.98 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7707.4±1251.4 MB/s, size: 159.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_mno4pk2g/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_mno4pk2g/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.1it/s 0.1s
+                   all          8        333      0.251      0.204     0.0977     0.0198
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B11/moderate/r0  tiles=8 gt=333  mAP50=0.098 PSNR=69.43 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6517.2±2910.1 MB/s, size: 118.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_fbw8kg6q/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_fbw8kg6q/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        333      0.252      0.214      0.101     0.0202
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B11/moderate/r1  tiles=8 gt=333  mAP50=0.101 PSNR=69.44 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 5674.9±2845.9 MB/s, size: 93.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_gwpi73ji/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_gwpi73ji/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        333      0.263       0.21     0.0989     0.0194
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B11/moderate/r2  tiles=8 gt=333  mAP50=0.099 PSNR=69.45 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7080.1±3120.9 MB/s, size: 141.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_lpaz63bx/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_lpaz63bx/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        333      0.233      0.193     0.0926      0.019
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B11/severe/r0  tiles=8 gt=333  mAP50=0.093 PSNR=67.39 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6972.3±2469.2 MB/s, size: 117.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_lf82mxq1/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_lf82mxq1/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.0it/s 0.1s
+                   all          8        333      0.239      0.201     0.0993     0.0195
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B11/severe/r1  tiles=8 gt=333  mAP50=0.099 PSNR=67.39 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 4804.9±2020.1 MB/s, size: 109.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_jteegezm/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_jteegezm/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 9.1it/s 0.1s
+                   all          8        333      0.251      0.192     0.0971     0.0195
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.2ms postprocess per image
+[ok] restormer/brest1/B11/severe/r2  tiles=8 gt=333  mAP50=0.097 PSNR=67.38 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7634.8±1106.4 MB/s, size: 244.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_daus6r4i/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_daus6r4i/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.572      0.435       0.38      0.123
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B04/moderate/r0  tiles=8 gt=239  mAP50=0.380 PSNR=61.10 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7367.1±974.4 MB/s, size: 241.7 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_mzcjll3s/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_mzcjll3s/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        239      0.542      0.418      0.368       0.12
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B04/moderate/r1  tiles=8 gt=239  mAP50=0.368 PSNR=61.11 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7352.2±1070.1 MB/s, size: 251.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_cse6aeht/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_cse6aeht/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.0it/s 0.1s
+                   all          8        239      0.547      0.427      0.378       0.12
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B04/moderate/r2  tiles=8 gt=239  mAP50=0.378 PSNR=61.08 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6937.2±636.8 MB/s, size: 245.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_t53vcyop/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_t53vcyop/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        239      0.546      0.444       0.37      0.116
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B04/severe/r0  tiles=8 gt=239  mAP50=0.370 PSNR=58.42 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7198.1±893.9 MB/s, size: 239.6 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_iwyzh7zq/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_iwyzh7zq/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        239      0.563      0.427      0.372      0.117
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B04/severe/r1  tiles=8 gt=239  mAP50=0.372 PSNR=58.42 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7908.7±1254.4 MB/s, size: 239.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_a8d8x7g8/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_a8d8x7g8/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.1it/s 0.1s
+                   all          8        239       0.54      0.412      0.361      0.116
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B04/severe/r2  tiles=8 gt=239  mAP50=0.361 PSNR=58.40 SSIM=0.999
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8244.8±2045.3 MB/s, size: 190.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_ipz5bso6/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_ipz5bso6/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.504      0.397      0.398      0.142
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B05/moderate/r0  tiles=8 gt=239  mAP50=0.398 PSNR=65.07 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8039.8±1917.4 MB/s, size: 188.5 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_wi04hgjq/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.7Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_wi04hgjq/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239        0.5      0.397      0.385      0.142
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B05/moderate/r1  tiles=8 gt=239  mAP50=0.385 PSNR=65.05 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7448.7±1595.0 MB/s, size: 188.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_qqbqnqkx/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_qqbqnqkx/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.526       0.38      0.395      0.141
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B05/moderate/r2  tiles=8 gt=239  mAP50=0.395 PSNR=65.03 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8737.6±2036.5 MB/s, size: 189.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_sm108hg9/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_sm108hg9/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.536      0.372       0.38      0.134
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B05/severe/r0  tiles=8 gt=239  mAP50=0.380 PSNR=62.16 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7542.5±1583.9 MB/s, size: 190.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_chncgomk/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_chncgomk/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.574      0.364       0.39      0.139
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B05/severe/r1  tiles=8 gt=239  mAP50=0.390 PSNR=62.17 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7950.6±1459.0 MB/s, size: 184.0 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_vfjj1uun/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_vfjj1uun/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.523      0.367       0.37      0.136
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B05/severe/r2  tiles=8 gt=239  mAP50=0.370 PSNR=62.13 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8189.0±1942.3 MB/s, size: 200.9 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_9d0h2msv/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_9d0h2msv/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.615      0.393      0.398      0.128
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B11/moderate/r0  tiles=8 gt=239  mAP50=0.398 PSNR=68.99 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7894.5±1438.1 MB/s, size: 202.3 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_5edv34uq/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_5edv34uq/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.615      0.393      0.404      0.129
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B11/moderate/r1  tiles=8 gt=239  mAP50=0.404 PSNR=68.96 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8198.3±2135.0 MB/s, size: 201.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_v0x78btw/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_v0x78btw/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.607      0.388      0.402      0.127
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B11/moderate/r2  tiles=8 gt=239  mAP50=0.402 PSNR=68.93 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7827.6±1496.4 MB/s, size: 205.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_9_0p14e6/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.3Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_9_0p14e6/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.614      0.389      0.396      0.128
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B11/severe/r0  tiles=8 gt=239  mAP50=0.396 PSNR=66.90 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 7896.1±1843.7 MB/s, size: 198.2 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_i3lyemxl/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_i3lyemxl/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.579      0.389      0.402      0.127
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B11/severe/r1  tiles=8 gt=239  mAP50=0.402 PSNR=66.94 SSIM=1.000
+Ultralytics 8.4.51 🚀 Python-3.11.15 torch-2.4.0+cu121 CUDA:0 (NVIDIA GeForce RTX 3090, 24245MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 8376.1±1753.7 MB/s, size: 195.8 KB)
+[K[34m[1mval: [0mScanning /tmp/facteval_1pwotkxv/labels/val... 8 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 8/8 2.5Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /tmp/facteval_1pwotkxv/labels/val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 8.3it/s 0.1s
+                   all          8        239      0.639      0.393       0.41      0.131
+Speed: 0.2ms preprocess, 9.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+[ok] restormer/rotterdam1/B11/severe/r2  tiles=8 gt=239  mAP50=0.410 PSNR=66.94 SSIM=1.000
+
+[total] wrote 144 rows -> /data/praxis/results_p2/matched/factorial_results.csv

@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this data or code, cite the Praxis and this repository. Annotation-derived files additionally require citation of Ciocarlan & Stoian (2021); imagery requires the Copernicus notice in NOTICE.md."
+type: dataset
+title: "Perceptual Quality Versus Detection Performance: Data and Code"
+authors:
+  - family-names: Persad
+    given-names: Rajesh Surendra
+    affiliation: "The George Washington University, School of Engineering and Applied Science"
+version: 1.0.0
+date-released: 2026-11-19
+repository-code: "https://github.com/rspersad/s2-denoising-headroom"
+license: "AGPL-3.0-only AND CC-BY-4.0"
+# doi: 10.5281/zenodo.XXXXXXX   # uncomment once the archive DOI is minted
+keywords:
+  - Sentinel-2
+  - vessel detection
+  - image denoising
+  - YOLOv9
+  - recoverable headroom
+  - perceptual quality
+references:
+  - type: thesis
+    authors:
+      - family-names: Persad
+        given-names: Rajesh Surendra
+    title: "Perceptual Quality Versus Detection Performance: Recoverable Headroom as a Basis for Denoising Decisions in Sentinel-2 Vessel Detection"
+    institution:
+      name: "The George Washington University"
+    year: 2026
+    thesis-type: "Doctor of Engineering Praxis"
+  - type: article
+    authors:
+      - family-names: Ciocarlan
+        given-names: Alina
+      - family-names: Stoian
+        given-names: Andrei
+    title: "Ship Detection in Sentinel 2 Multi-Spectral Images with Self-Supervised Learning"
+    journal: "Remote Sensing"
+    volume: 13
+    issue: 21
+    start: 4255
+    year: 2021
+    doi: 10.3390/rs13214255

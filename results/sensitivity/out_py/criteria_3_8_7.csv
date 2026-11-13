@@ -1,0 +1,4 @@
+variant,crit1_pooled_any_beats,crit1_pooled_methods,crit1_any_cell_beats,crit1_cells,crit2_order_preserved,crit2_baseline_best_rank,crit2_order,crit3_B05_severe_any_beats,crit3_B05_severe
+m,False,,False,,True,True,none < restormer < bm3d < dncnn < blind2unblind < noise2void,False,"best method bm3d, delta 0.0085 [-0.0080, 0.0320], BH p 0.81, beats resolution False, headroom 0.0231"
+c,False,,True,dncnn@B04/moderate;dncnn@B04/nominal;bm3d@B05/severe;noise2void@B05/severe;restormer@B05/severe,False,True,none < restormer < dncnn < bm3d < blind2unblind < noise2void,True,"best method bm3d, delta 0.0108 [0.0030, 0.0225], BH p 0.184, beats resolution True, headroom 0.0172"
+e,False,,True,bm3d@B04/severe;restormer@B04/severe,False,False,restormer < bm3d < none < dncnn < blind2unblind < noise2void,False,"best method restormer, delta 0.0032 [-0.0098, 0.0071], BH p 0.13, beats resolution False, headroom 0.0089"

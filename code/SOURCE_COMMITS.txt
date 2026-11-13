@@ -1,0 +1,2 @@
+pipeline (rspersad/praxis): 44f490b93b6679a8f071f7ee262421e4db7bd5a6 on correction/detector-tiled-p2
+analysis (s2_analysis):     722ec21d0f95dcfc9f8220eefa18a7878d52f2f5 on s2-analysis/native-tiling

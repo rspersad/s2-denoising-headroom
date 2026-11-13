@@ -1,0 +1,6 @@
+# Denoiser-training dependencies (in addition to your base 'pacific' env).
+# torch/torchvision are assumed already present with CUDA 12.4 support.
+numpy>=1.24
+rasterio>=1.3        # reading S2 scene bands
+einops>=0.7          # required by the official Restormer architecture
+tqdm>=4.66           # optional progress
