@@ -10,7 +10,7 @@ version: 1.0.0
 date-released: 2026-11-19
 repository-code: "https://github.com/rspersad/s2-denoising-headroom"
 license: "AGPL-3.0-only AND CC-BY-4.0"
-# doi: 10.5281/zenodo.XXXXXXX   # uncomment once the archive DOI is minted
+doi: 10.5281/zenodo.24209175
 keywords:
   - Sentinel-2
   - vessel detection

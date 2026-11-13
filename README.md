@@ -55,7 +55,7 @@ The statistical tables of Chapter 4 are regenerated from `results/primary_table.
 }
 ```
 
-For the data and code specifically, cite the archived release (DOI in `CITATION.cff` once minted). Data users must also carry the Copernicus notice above and cite Ciocarlan & Stoian (2021) for annotation-derived files.
+For the data and code specifically, cite the archived release (doi:10.5281/zenodo.24209175). Data users must also carry the Copernicus notice above and cite Ciocarlan & Stoian (2021) for annotation-derived files.
 
 ## Integrity
 
