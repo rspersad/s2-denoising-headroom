@@ -6,6 +6,6 @@ Corresponds to the Praxis as approved by the committee on 12 November 2026 (manu
 * `results/severity_matched.csv` — 144 evaluations of the severity-matched arm.
 * `results/calibration.csv` — Table 3.1 values and the reference-radiance note.
 * `results/ceiling_contrast.csv` — the ceiling-contrast table referenced in Chapter 4 (repository commit bfd6d7b).
-* Large files (tiles, labels, detectors) — archive record [DOI].
+* Large files (tiles, labels, detectors) — archive record doi:10.5281/zenodo.24209175.
 
 Every file is listed with its SHA-256 in `MANIFEST.sha256`.

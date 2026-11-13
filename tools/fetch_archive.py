@@ -2,7 +2,7 @@
 """Download the archive files listed in data/README.md from the Zenodo record and verify them.
 Set ZENODO_RECORD to the numeric record id once the record is published."""
 import os, sys, json, urllib.request, subprocess
-REC = os.environ.get("ZENODO_RECORD", "")
+REC = os.environ.get("ZENODO_RECORD", "24209175")
 if not REC:
     sys.exit("Set ZENODO_RECORD=<record id> (see data/README.md).")
 os.makedirs("data/archive", exist_ok=True)
