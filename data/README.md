@@ -10,7 +10,7 @@ The tiles, degraded variants, label files and detector weights are held in a rea
 | YOLO label files (annotation-derived; MIT, see docs/PERMISSIONS.md) | `labels_yolo.tar.zst` | 22 KB | see MANIFEST.sha256 |
 | YOLOv9 detectors, m/c/e × seeds {s1,s2,s3} | `detectors_yolov9.tar.zst` | 597 MB | see MANIFEST.sha256 |
 
-Archive: **10.5281/zenodo.24209175 — https://doi.org/10.5281/zenodo.24209175** — Zenodo record, version 1.0.0 (immutable; later corrections are new versions).
+Archive: Zenodo. Version 1.0.0 (as approved by the committee): **10.5281/zenodo.24209175** — https://doi.org/10.5281/zenodo.24209175. Version 1.1.0 (adds `labels_yolo.tar.zst`): **10.5281/zenodo.24209889** — https://doi.org/10.5281/zenodo.24209889. Concept DOI resolving to the latest version: https://doi.org/10.5281/zenodo.24209174. Each version is immutable once published.
 
 `tools/fetch_archive.py` downloads these files into `data/archive/` and verifies them against `MANIFEST.sha256`.
 
