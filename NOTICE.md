@@ -9,7 +9,7 @@ https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Noti
 
 ## S2-SHIPS vessel annotations
 Ciocarlan, A., & Stoian, A. (2021). Ship Detection in Sentinel 2 Multi-Spectral Images with Self-Supervised Learning. Remote Sensing, 13(21), 4255. https://doi.org/10.3390/rs13214255
-Annotation-derived files are redistributed with the written permission of the dataset authors (docs/PERMISSIONS.md). No public license attaches to S2-SHIPS; permission does not extend to onward redistribution outside the terms stated there.
+Dataset licence: MIT (EOTDL catalogue entry; source repository https://github.com/alina2204/contrastive_SSL_ship_detection). Licence text: LICENSES/S2-SHIPS-MIT.txt. Annotation-derived files redistributed under that licence with this notice retained.
 
 ## YOLOv9 and Ultralytics
 Wang, C.-Y., Yeh, I.-H., & Liao, H.-Y. M. (2024). YOLOv9: Learning what you want to learn using programmable gradient information. ECCV 2024, LNCS 15089. Original implementation: GPL-3.0.
