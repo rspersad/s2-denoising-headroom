@@ -4,6 +4,7 @@ Corrects `code/analysis/scripts/vessel/analyze_vessels.py`, which computed Cochr
 
 * `code/analysis/results/vessel/out/vessel_band_tests.csv` regenerated; detection fractions, McNemar, Friedman and Page columns unchanged. Corresponds to manuscript Table 4.2 from v1.15 onward.
 * The three native-tiling tables under `code/analysis/results/native_tiling/` predate this correction and will be regenerated in a later release; the praxis does not cite them.
+* `MANIFEST.sha256` was regenerated on a host without the `data/archive/` directory, so the nine entries for the Zenodo deposit (five archives, two license files, NOTICE.md, and README.md) are carried forward from the previous manifest unchanged. The deposit is not affected by this release.
 * No data, labels or detector weights changed; the archive record doi:10.5281/zenodo.24209175 is unaffected.
 
 # v1.0.0 — data and code of record
