@@ -19,12 +19,13 @@ d = pd.read_csv(a.vessels)
 d = d[d.method.isin(["clean", "none"])]
 d["area"] = d.w * d.h
 
-def cochran_q(X):  # X: n x k binary
+def cochran_q(X):  # X: n x k binary. Cochran (1950) on the full matrix; concordant rows contribute zero.
     X = np.asarray(X, int); k = X.shape[1]; rs = X.sum(1); cs = X.sum(0); N = X.sum()
-    keep = (rs > 0) & (rs < k); X = X[keep]; rs = rs[keep]
-    if len(X) == 0: return np.nan, np.nan, 0
-    Q = (k - 1) * (k * (cs ** 2).sum() - N ** 2) / (k * N - (rs ** 2).sum())
-    return Q, chi2.sf(Q, k - 1), len(X)
+    n_disc = int(((rs > 0) & (rs < k)).sum())
+    den = k * N - (rs ** 2).sum()
+    if n_disc == 0 or den == 0: return np.nan, np.nan, n_disc
+    Q = (k - 1) * (k * (cs ** 2).sum() - N ** 2) / den
+    return Q, chi2.sf(Q, k - 1), n_disc
 
 def mcnemar(x, y):
     b = int(((x == 1) & (y == 0)).sum()); c = int(((x == 0) & (y == 1)).sum())
