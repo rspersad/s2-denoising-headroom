@@ -6,7 +6,7 @@ authors:
   - family-names: Persad
     given-names: Rajesh Surendra
     affiliation: "The George Washington University, School of Engineering and Applied Science"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-11-19
 repository-code: "https://github.com/rspersad/s2-denoising-headroom"
 license: "AGPL-3.0-only AND CC-BY-4.0"
